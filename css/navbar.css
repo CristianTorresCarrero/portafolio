@@ -8,7 +8,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    padding: 2rem 10%;
+    padding: 4rem 15%;
     background: rgba(0,0,0,0.3);
     backdrop-filter: blur(10px);
     display: flex;
@@ -45,12 +45,6 @@ span{
     color: transparent;
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
-    gap: 4rem; /* Espaciado uniforme entre los enlaces */
-}
-
 .navbar a{
     font-size: 1.8rem;
     color: var(--text-color);
@@ -68,7 +62,6 @@ span{
 .gradient-btn {
     font-size: 1.8rem;
     padding: 1rem 2rem;
-    margin-left: auto;
     border-radius: 3rem;
     background: linear-gradient(
         270deg,
