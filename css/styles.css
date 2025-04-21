@@ -289,3 +289,51 @@ section{
 .project-card p{
     font-size: 1.6rem;
 }
+
+.education{
+    background-color: var(--bg-color);
+}
+
+.education-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    gap: 3rem;
+}
+
+
+.education-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--bg-color);
+    border: 2px solid var(--main-color);
+    border-radius: 3rem;
+    gap: 2rem;
+    padding: 5rem 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 5px var(--main-color);
+    transition: 0.3s ease;
+}
+
+.education-card:hover{
+    box-shadow: 0 0 25px var(--main-color),
+                0 0 50px var(--main-color);
+    transform: scale(1.02);
+}
+
+.education-card img{
+    max-width: 150px;
+    border-radius: 2em;
+    object-fit: cover;
+}
+
+.education-card h3{
+    font-size: 3rem;
+}
+.education-card p{
+    font-size: 1.6rem;
+}
