@@ -1,0 +1,14 @@
+.footer{
+    background-color: var(--second-bg-color);
+    padding: 20px 0;
+}
+
+.footer .social-icons{
+    text-align: center;
+}
+
+.footer .copyright{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+}
