@@ -98,6 +98,8 @@
                     </i>
                 </div>
             </div>
+
+            
         </div>
 
     </section>
@@ -119,7 +121,7 @@
             </div>
 
             <div class="project-card">
-                <img src="img/project_portafolio.png" alt="">
+                <img src="img/project_heladeria.jpg" alt="">
                 
                 <h3>Sistema Ventas Frozen Flavuors</h3>
 
@@ -239,23 +241,24 @@
 
     <section class="contact" id="contact">
         <h2 class="heading">Contáctame</h2>
-        <form action="#">
+        <form action="https://formspree.io/f/mkgrgyyd" method="POST">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Ingresa tu nombre...">
-                    <input type="email" placeholder="Ingresa tu email...">
+                    <input type="text" name="nombre" placeholder="Ingresa tu nombre..." required>
+                    <input type="email" name="correo" placeholder="Ingresa tu email..." required>
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Numero telefonico...">
-                    <input type="text" placeholder="Asunto...">
+                    <input type="tel" name="telefono" placeholder="Número telefónico..." required>
+                    <input type="text" name="asunto" placeholder="Asunto..." required>
                 </div>
             </div>
             <div class="input-group-2">
-                <textarea name="" id="" placeholder="Mensaje..." cols="30" rows="10"></textarea>
+                <textarea name="mensaje" placeholder="Mensaje..." cols="30" rows="10" required></textarea>
                 <input type="submit" value="Enviar Mensaje" class="btn">
             </div>
         </form>
     </section>
+    
 
     <div id="footer"></div> 
 
@@ -263,5 +266,12 @@
 
     <script src="js/router.js"></script>
 </body>
+
+<a href="https://wa.me/573105818437?text=¡Hola!%20Cristian%20Torres!,%20Estoy%20interesado%20en%20tu%20trabajo." 
+   class="whatsapp-button" 
+   target="_blank">
+    <i class='bx bxl-whatsapp'></i>
+</a>
+
 
 </html>
