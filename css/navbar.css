@@ -79,3 +79,9 @@ span{
 .gradient-btn:hover {
     transform: scale(1.2);
 }
+
+.gradient-btn i {
+    font-size: 25px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
